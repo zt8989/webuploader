@@ -62,7 +62,7 @@ define([
         /**
          * @property {String} version 当前版本号。
          */
-        version: '@version@',
+        version: process.env.version,
 
         /**
          * @property {jQuery|Zepto} $ 引用依赖的jQuery或者Zepto对象。
